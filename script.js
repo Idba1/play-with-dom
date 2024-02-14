@@ -25,11 +25,15 @@ for(let item = 0; item<items.length; item++){
 console.log(myArr); */
 
 
-const items2 = document.getElementsByClassName('li-items');
+/* const items2 = document.getElementsByClassName('li-items');
 console.log(items2);
 
 for(const item of items2){
     console.log(item);
     item.style.fontSize = '4rem';
     item.style.backgroundColor = 'lightblue';
-}
+} */
+
+
+const item3 = document.querySelectorAll("li");
+console.log(item3);
