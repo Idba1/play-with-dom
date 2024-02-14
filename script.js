@@ -84,3 +84,9 @@ ul.innerHTML = `<p>${name}</p>`;
 console.log(ul); */
 
 
+// document.querySelector('h2').removeAttribute('id');
+// console.log(h2)
+// document.querySelector('h2').removeAttribute('class');
+//  document.querySelector('h2').setAttribute('class','first-heading');
+const attribute = document.querySelector('h2').getAttribute('id');
+console.log(attribute);
