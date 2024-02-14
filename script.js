@@ -107,6 +107,15 @@ console.log(h2);
 document.body.appendChild(h2); */
 
 
-const h2 = document.querySelector('h2');
+/* const h2 = document.querySelector('h2');
 h2.classList.add('first', 'second', 'third');
-h2.classList.remove('second');
+h2.classList.remove('second'); */
+
+
+const ul = document.querySelector('ul');
+const second = document.getElementById('second');
+
+const li = document.createElement('li');
+li.innerText = "hello from js";
+
+ul.insertBefore(li, second);
