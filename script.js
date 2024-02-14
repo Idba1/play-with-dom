@@ -112,10 +112,17 @@ h2.classList.add('first', 'second', 'third');
 h2.classList.remove('second'); */
 
 
-const ul = document.querySelector('ul');
+/* const ul = document.querySelector('ul');
 const second = document.getElementById('second');
 
 const li = document.createElement('li');
 li.innerText = "hello from js";
 
-ul.insertBefore(li, second);
+ul.insertBefore(li, second); */
+
+
+/* const ul = document.querySelector('ul');
+ul.remove(); */
+
+/* const ul = document.getElementById('li-container');
+ul.removeChild(ul.children[3]); */
