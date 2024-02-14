@@ -87,6 +87,21 @@ console.log(ul); */
 // document.querySelector('h2').removeAttribute('id');
 // console.log(h2)
 // document.querySelector('h2').removeAttribute('class');
-//  document.querySelector('h2').setAttribute('class','first-heading');
-const attribute = document.querySelector('h2').getAttribute('id');
-console.log(attribute);
+// document.querySelector('h2').setAttribute('class','first-heading');
+// const attribute = document.querySelector('h2').getAttribute('id');
+// console.log(attribute);
+
+/* const ul = document.querySelector('ul');
+
+const li = document.createElement('li');
+li.innerText = "added by js";
+console.log(li);
+
+ul.appendChild(li); */
+
+// const ul = document.querySelector('ul');
+
+/* const h2 = document.createElement('h2');
+h2.innerText = "add new heading by js";
+console.log(h2);
+document.body.appendChild(h2); */
