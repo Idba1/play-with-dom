@@ -64,6 +64,16 @@ console.log(ul.previousSibling); */
 /* const ul = document.getElementById('li-container');
 console.log(ul.nextSibling); */
 
-const ul = document.getElementById('li-container');
-console.log(ul.nextElementSibling.nextSibling);
+/* const ul = document.getElementById('li-container');
+console.log(ul.nextElementSibling.nextSibling); */
+
+/* const ul = document.querySelector('ul');
+console.log(ul.innerText);
+
+const ul2 = document.querySelector('ul');
+console.log(ul2.textContent); */
+
+const ul = document.querySelector('ul');
+ul.innerHTML = '<p>Hello</p>';
+console.log(ul);
 
