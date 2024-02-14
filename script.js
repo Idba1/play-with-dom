@@ -49,5 +49,21 @@ console.log(items.children); */
 /* const ul = document.getElementById('li-container');
 console.log(ul.children); */
 
+/* const ul = document.getElementById('li-container');
+console.log(ul.parentElement); */
+
+
+/* const ul = document.getElementById('li-container');
+console.log(ul.previousElementSibling); */
+
+
+/* const ul = document.getElementById('li-container');
+console.log(ul.previousSibling); */
+
+
+/* const ul = document.getElementById('li-container');
+console.log(ul.nextSibling); */
+
 const ul = document.getElementById('li-container');
-console.log(ul.parentElement);
+console.log(ul.nextElementSibling.nextSibling);
+
