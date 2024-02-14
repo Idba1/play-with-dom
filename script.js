@@ -105,3 +105,8 @@ ul.appendChild(li); */
 h2.innerText = "add new heading by js";
 console.log(h2);
 document.body.appendChild(h2); */
+
+
+const h2 = document.querySelector('h2');
+h2.classList.add('first', 'second', 'third');
+h2.classList.remove('second');
