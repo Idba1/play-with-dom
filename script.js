@@ -73,7 +73,14 @@ console.log(ul.innerText);
 const ul2 = document.querySelector('ul');
 console.log(ul2.textContent); */
 
-const ul = document.querySelector('ul');
+/* const ul = document.querySelector('ul');
 ul.innerHTML = '<p>Hello</p>';
-console.log(ul);
+console.log(ul); */
+
+
+/* const ul = document.querySelector('ul');
+let name = 'Rokib';
+ul.innerHTML = `<p>${name}</p>`;
+console.log(ul); */
+
 
