@@ -35,5 +35,19 @@ for(const item of items2){
 } */
 
 
-const item3 = document.querySelectorAll("li");
-console.log(item3);
+/* const item3 = document.querySelectorAll("li");
+console.log(item3); */
+
+
+/* const bodyName = document.querySelector('body');
+console.log(bodyName.children); */
+
+
+/* const items = document.querySelector(".lists");
+console.log(items.children); */
+
+/* const ul = document.getElementById('li-container');
+console.log(ul.children); */
+
+const ul = document.getElementById('li-container');
+console.log(ul.parentElement);
