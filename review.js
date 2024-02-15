@@ -15,5 +15,7 @@ document.getElementById('submit-btn').addEventListener('click', function(){
     const p = document.createElement('p');
     p.innerText = serialCount + "." + inputValue;
     serialCount += 1;
+
     container.appendChild(p);
+    document.querySelector('textarea').value = '';
 })
