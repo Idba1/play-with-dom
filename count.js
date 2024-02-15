@@ -16,3 +16,4 @@ minusBtn.addEventListener('click', function(){
     sum -= 1;
     firstElement.innerText = sum;
 })
+
